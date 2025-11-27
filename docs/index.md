@@ -1,5 +1,7 @@
 # Resonadores
-
+<head>
+  <link rel="stylesheet" href="../assets/resonadores.css">
+</head>
 Los **Resonadores** son individuos capaces de manipular la *Resonancia*, una fuerza misteriosa que les otorga habilidades extraordinarias.  
 Cada uno destaca por su rol dentro del equipo, su estilo de combate y su elemento.
 

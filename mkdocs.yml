@@ -53,11 +53,11 @@ extra:
       link: https://discord.com
 
 nav:
-  - Inicio: index.md
+  - Inicio: characters.md
   - Información:
       - Qué es Wuthering Waves: what-is.md
       - Sistemas principales: systems.md
-      - Personajes (Resonadores): characters.md
+      - Personajes (Resonadores): index.md
       - Ecos (Echoes): echoes.md
   - Mundo:
       - Historia y Lore: lore.md

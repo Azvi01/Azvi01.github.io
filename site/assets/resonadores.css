@@ -1,0 +1,111 @@
+/******************************************************
+ * ESTILO GLOBAL MINIMALISTA – COMPATIBLE CON MARKDOWN PURO
+ ******************************************************/
+
+/* --- TÍTULOS --- */
+.md-typeset h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 0.4em;
+}
+
+.md-typeset h2 {
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-top: 2em;
+    letter-spacing: -0.5px;
+}
+
+/* --- SEPARADORES --- */
+.md-typeset hr {
+    margin: 35px 0;
+    border: none;
+    height: 1px;
+    background: var(--md-default-fg-color--lightest);
+    opacity: 0.6;
+}
+
+/******************************************************
+ * TABLAS
+ ******************************************************/
+
+.md-typeset table {
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    box-shadow: 0 0 18px rgba(0,0,0,0.05);
+}
+
+.md-typeset table th {
+    background: var(--md-default-fg-color--lightest);
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.md-typeset table td,
+.md-typeset table th {
+    padding: 12px 16px;
+}
+
+/******************************************************
+ * IMÁGENES CENTRADAS Y LIMPIAS
+ ******************************************************/
+
+.md-typeset img {
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    margin: 10px auto;
+    display: block;
+}
+
+/******************************************************
+ * LISTAS Y PÁRRAFOS
+ ******************************************************/
+
+.md-typeset p {
+    line-height: 1.72;
+}
+
+.md-typeset ul li {
+    margin-bottom: 6px;
+}
+
+/******************************************************
+ * ETIQUETAS VISUALES (ROL / ELEMENTO / ETC.)
+ ******************************************************/
+
+.badge {
+    padding: 4px 10px;
+    margin: 2px 6px;
+    background: var(--md-default-fg-color--lighter);
+    border-radius: 6px;
+    font-size: 0.85em;
+    display: inline-block;
+}
+
+/******************************************************
+ * COLORES ELEMENTALES
+ ******************************************************/
+
+.badge-aero    { background:#3da9ff22; border:1px solid #3da9ff; color:#3da9ff; }
+.badge-electro { background:#a855f722; border:1px solid #a855f7; color:#a855f7; }
+.badge-fusion  { background:#ff6b3522; border:1px solid #ff6b35; color:#ff6b35; }
+.badge-glacio  { background:#5be3ff22; border:1px solid #5be3ff; color:#0aa2c1; }
+.badge-havoc   { background:#63003622; border:1px solid #630036; color:#630036; }
+.badge-spectro { background:#ffd43b33; border:1px solid #ffd43b; color:#b89e00; }
+
+/******************************************************
+ * MODO OSCURO (SLATE)
+ ******************************************************/
+
+[data-md-color-scheme="slate"] .md-typeset table {
+    border-color: #333;
+    background: #1e1e1e;
+}
+
+[data-md-color-scheme="slate"] .badge {
+    background: #333 !important;
+    border-color: #444 !important;
+}
